@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+  <img src="./img/Cabecera.png" alt="Cabecera de la página">
+</header>
+<nav>
+  <ul class="menu">
+    <li><a href="./index.html">Índice</a></li>
+    <li><a href="./news.html">Noticias</a></li>
+    <li><a href="./links.html">Enlaces</a></li>
+    <li><a href="./gallery.html">Galería</a></li>
+    <li><a href="./register.html">Registro</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <section>
+    <article>
+      <h1>Formulario de Inscripción</h1>
+      <img src="./img/logo-exitae-long.jpg" alt="Logo de Exitae">
+    </article>
+  </section>
+  <section>
+    <article>
+      <h2>Rellena los siguientes campos:</h2>
+      <form>
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" id="name" required placeholder="Nombre (requerido)">
+        </div>
+        <div>
+          <label for="direction">Dirección:</label>
+          <input type="text" name="direction" id="direction" required placeholder="Dirección (requerido)">
+        </div>
+        <div>
+          <label for="phone">Teléfono de contacto:</label>
+          <input type="tel" name="phone" id="phone" required placeholder="Teléfono (requerido)">
+        </div>
+        <div>
+          <label for="years">Edad:</label>
+          <input type="number" name="years" id="years" required placeholder="Edad (requerido)">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required placeholder="Direccion@correo.com (requerido)">
+        </div>
+
+        <div class="buttons">
+          <input type="submit" value="Enviar formulario">
+          <input type="reset" value="Borrar formulario">
+        </div>
+      </form>
+    </article>
+  </section>
+</div>
+<footer>
+  <p>:: masterD :: Práctica HTML y CSS :: Todos los derechos reservados</p>
+</footer>
+</body>
+</html>
